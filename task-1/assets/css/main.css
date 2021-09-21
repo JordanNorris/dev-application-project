@@ -1,0 +1,19 @@
+html,
+body {
+  margin: 0;
+}
+.container {
+  max-width: 1200px;
+  width: 90%;
+  margin: 0 auto;
+}
+span.code {
+  display: inline-block;
+  font-family: monospace;
+  white-space: pre;
+  padding: 3px 4px;
+  background-color: rgb(23, 23, 23);
+  color: rgb(206, 122, 96);
+  border-radius: 4px;
+  margin: 0.1rem 0;
+}
