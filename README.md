@@ -24,5 +24,3 @@ For this task, we have provided an existing WordPress install. Imagine this is a
 You are required to find the relevant code block, starting from `index.php` in the `twentytwentyone` theme, diagnose the problem given the client's raised issue, and write a fix.
 
 ###### Note: We have included all the files necessary to set up a local working environment. This will require a local mySQL database, and you will need to import the data contained in the `task-2/wp_dev_application.sql` file
-
-test
