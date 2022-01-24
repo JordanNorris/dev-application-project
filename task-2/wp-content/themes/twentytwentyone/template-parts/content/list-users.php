@@ -23,8 +23,8 @@ $users = get_users()
             $id = $user->ID;
             $login = $user->user_login;
             $user_data = get_userdata($user->ID);
-            if ($user_data->first_name) {
-                $name = $user_data->first_name;
+            if ($user_data->display_name) {
+                $name = $user_data->display_name;
             } ?>
     
             <li>
@@ -32,7 +32,7 @@ $users = get_users()
                 <ul>
                     <li>ID: <?= $id; ?></li>
                     <li>Username: <?= $login; ?></li>
-                    <li>Name: <strong><?= $name; ?></strong></li>
+                    <li>Name: <strong><?= ucfirst($name); ?></strong></li>
                 </ul>
             </li>
     
