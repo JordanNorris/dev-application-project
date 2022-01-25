@@ -1,36 +1,104 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <title>Zest Developer Application Task 1</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <link rel="stylesheet" href="assets/css/main.css" />
-    <link rel="stylesheet" href="https://use.typekit.net/lxd8zce.css" />
-  </head>
-  <body>
+
+<head>
+  <meta charset="utf-8" />
+  <title>Zest Developer Application Task 1</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="stylesheet" href="assets/css/main.css" />
+  <link rel="stylesheet" href="https://use.typekit.net/lxd8zce.css" />
+  <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+
+<body>
+  <div class="container">
+    <h1 class="tk-arvo">Hello!</h1>
+    <p class="tk-montserrat">
+      Welcome to task 1. Please build the component (found in <span class="code">design.png</span>) within the
+      <span class="code">#component</span> element below.
+    </p>
+    <p class="tk-montserrat">
+      Hint: hex codes are <span style="color: #ff8400">#ff8400</span>,
+      <span style="color: #f0f0f0; background-color: rgb(23, 23, 23)">#f0f0f0</span> and
+      <span style="color: #182819">#182819</span>
+    </p>
+    <p class="tk-montserrat">
+      Hint: fonts can be added using the classes <span class="code">.tk-arvo</span>, or <span
+        class="code">.tk-montserrat</span>.
+      Alternatively, their font family names are:
+    </p>
+    <ul class="tk-montserrat" style="margin-bottom: 4em">
+      <li><span class="code">"arvo"</span>, available in weight <span class="code">400</span></li>
+      <li>
+        <span class="code">"montserrat"</span>, available in weights <span class="code">300</span>, <span
+          class="code">400</span> and
+        <span class="code">600</span>
+      </li>
+    </ul>
+  </div>
+
+
+  <div id="component">
     <div class="container">
-      <h1 class="tk-arvo">Hello!</h1>
-      <p class="tk-montserrat">
-        Welcome to task 1. Please build the component (found in <span class="code">design.png</span>) within the
-        <span class="code">#component</span> element below.
-      </p>
-      <p class="tk-montserrat">
-        Hint: hex codes are <span style="color: #ff8400">#ff8400</span>,
-        <span style="color: #f0f0f0; background-color: rgb(23, 23, 23)">#f0f0f0</span> and
-        <span style="color: #182819">#182819</span>
-      </p>
-      <p class="tk-montserrat">
-        Hint: fonts can be added using the classes <span class="code">.tk-arvo</span>, or <span class="code">.tk-montserrat</span>.
-        Alternatively, their font family names are:
-      </p>
-      <ul class="tk-montserrat" style="margin-bottom: 4em">
-        <li><span class="code">"arvo"</span>, available in weight <span class="code">400</span></li>
-        <li>
-          <span class="code">"montserrat"</span>, available in weights <span class="code">300</span>, <span class="code">400</span> and
-          <span class="code">600</span>
-        </li>
-      </ul>
+      <div class="container--grid">
+        <article class="article-1" style="padding-left: 0;">
+          <p class="tk-montserrat text--orange" style="margin: 0; font-size: 1em;">Resources</p>
+          <h1 class="tk-arvo text--white">D&I news and articles</h1>
+          <p class="tk-montserrat text--grey article__line--height" style="font-weight: 600;">Lorem
+            ipsum dolor sit amet
+            consectetur, adipisicing
+            elit. Consequuntur eum
+            nisi id alias. Repellat ipsa, id
+            qui illo aliquam quis?</p>
+          <div class="article--link">
+            <a href="#" class="tk-arvo text--white">
+              <p>
+                View all resources
+              </p>
+              <img src="./assets/img/iconmonstr-arrow-right-thin.svg" alt="" srcset="">
+            </a>
+          </div>
+        </article>
+        <article class="article-2 background--grey">
+          <p class="tk-montserrat text--orange">Local update</p>
+          <h4 class="tk-arvo">Building up EU Design Protection for Modular Systems</h4>
+          <p class="tk-montserrat text--grey">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia voluptate
+            architecto magni reprehenderit
+            repellendus ipsam illum voluptates repudiandae id optio!</p>
+        </article>
+        <article class="article-3 background--grey">
+          <p class="tk-montserrat text--orange">Article</p>
+          <h4 class="tk-arvo">Building up EU Design Protection for Modular Systems</h4>
+          <p class="tk-montserrat text--grey">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia voluptate
+            architecto magni reprehenderit
+            repellendus ipsam illum voluptates repudiandae id optio!</p>
+          <p class="tk-montserrat text--grey">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia voluptate
+            architecto magni reprehenderit
+            repellendus ipsam illum voluptates repudiandae id optio!</p>
+        </article>
+        <article class="article-4 background--grey">
+          <p class="tk-montserrat text--orange">Article</p>
+          <h4 class="tk-arvo">Building up EU Design Protection for Modular Systems</h4>
+          <p class="tk-montserrat text--grey">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia voluptate
+            architecto magni reprehenderit
+            repellendus ipsam</p>
+        </article>
+        <article class="article-5 background--grey">
+          <p class="tk-montserrat text--orange">Event</p>
+          <h4 class="tk-arvo">Building up EU Design Protection for Modular Systems</h4>
+          <p class="tk-montserrat text--grey">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia voluptate
+            architecto magni reprehenderit
+            repellendus ipsam</p>
+        </article>
+        <img class="image-1" src="./assets/img/img1.jpg" alt="">
+        <img class="image-2" src="./assets/img/img2.jpg" alt="">
+        <div class="background--green">
+          <img class="background--svg" src="./assets/img/bg.svg" alt="" srcset="">
+        </div>
+
+      </div>
     </div>
-    <div id="component"></div>
-  </body>
+  </div>
+</body>
+
 </html>
